@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevQuest CSS + JS Intermediário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1>FICOU COM DÚVIDA?</h1>
+            <h2>NOS MANDE UMA MENSAGEM!</h2>
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </div>
+
+        <div class="right-section">
+            <form id="formulario">
+                <input type="text" id="nome" placeholder="Nome completo *" class="input-field">
+                <span class="error-message" id="erro-nome"></span>
+
+                <input type="email" id="email" placeholder="Email *" class="input-field">
+                <span class="error-message" id="erro-email"></span>
+
+                <input type="tel" id="telefone" placeholder="Telefone *" class="input-field">
+                <span class="error-message" id="erro-telefone"></span>
+
+                <textarea id="mensagem" placeholder="Mensagem *" class="input-field textarea"></textarea>
+                <span class="error-message" id="erro-mensagem"></span>
+
+                <p class="campos-obrigatorios">*campos obrigatórios</p>
+
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
